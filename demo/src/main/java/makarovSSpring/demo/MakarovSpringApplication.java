@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MakarovSpringApplication {
 
 	public static void main(String[] args) {
+		System.setProperty("server.servlet.context-path", "/store");
 		SpringApplication.run(MakarovSpringApplication.class, args);
 	}
 
